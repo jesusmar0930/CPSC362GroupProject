@@ -1,0 +1,150 @@
+.contact{
+    margin: auto;
+    width: 50%;
+}
+
+.title{
+    position: absolute;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+}
+
+.title-text{
+    height: 62px;
+
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.subtitle{
+    position: relative;
+    top: 100px;
+    margin: auto;
+}
+
+.subtitle-text{    
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+
+    text-align: center;
+    color: #000000;
+}
+
+.form{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    margin: auto;
+}
+
+.form-grid{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.form-grid-1-half{
+    position: absolute;
+    left: 0%;
+    right: 50%;
+    width: 50%;
+    margin: auto;
+}
+
+.form-grid-2-half{
+    position: absolute;
+    left:55%;
+    right: 0%;
+    width: 50%;
+    margin: auto;
+}
+
+.form-name-title{
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+
+    color: #000000;
+}
+
+.form-name-input{
+    width: 90%;
+
+    background-color: transparent;
+    border: 1px solid;
+    border-color: #000000;
+    padding: 8px 10px;
+}
+
+.form-email-title{
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+
+    color: #000000;
+}
+
+.form-email-input{
+    width: 90%;
+
+    background-color: transparent;
+    border: 1px solid;
+    border-color: #000000;
+    padding: 8px 10px;
+}
+
+.form-message-title{
+    position: relative;
+    top: 75px;
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+
+    color: #000000;
+}
+
+.form-message-input{
+    position: relative;
+    top: 80px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+
+    background-color: transparent;
+    border: 1px solid;
+    border-color: #000000;
+    padding: 8px 10px;
+}
+
+.send-button{
+    position: relative;
+    top: 100px;
+    background-color: #000000;
+
+    font-family: 'arial';
+    font-style: bold;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+
+    color: #ffffff;
+
+    order: 3;
+}
